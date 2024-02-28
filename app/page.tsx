@@ -14,7 +14,7 @@ export default function Home() {
         <About />
         <Experience />
         {/* <Certificates/> */}
-{/*         <Tech/> */}
+        <Tech/>
         <Projects />
         <Footer />
       </div>
