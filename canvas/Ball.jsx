@@ -43,11 +43,11 @@ const Ball = (props) => {
     },[])
   return (
     <Canvas frameloop="always" gl={{ preserveDrawingBuffer: true }}>
-      <Suspense fallback={<Loader />}>
+      <Suspense fallback={null}>
         <OrbitControls enableZoom={false} position0={0} />
         <Ball imgUrl={icon.src} />
       </Suspense>
-      <Preload all />
+{/*       <Preload all /> */}
     </Canvas>
   );
 };
